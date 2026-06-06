@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Sabiana Fan Coil",
+        "description": "Enter the serial port and Modbus RTU details for your Sabiana fan coil.",
+        "data": {
+          "port": "Serial Port (e.g., /dev/sabiana)",
+          "baudrate": "Baud Rate",
+          "slave_address": "Modbus Slave Address (Unit ID)",
+          "scan_interval": "Polling Interval (seconds)",
+          "support_cooling": "Supports Cooling",
+          "support_heating": "Supports Heating",
+          "model_schema": "Model Register Schema"
+
+
+
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Please check your serial port and Modbus address.",
+      "unknown": "Unexpected error occurred."
+    }
+  }
+}
